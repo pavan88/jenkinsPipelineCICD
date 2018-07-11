@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class TestController {
 
-    @RequestMapping("/")
+    @RequestMapping("/admin")
     @ResponseBody
     String hello() {
         return "Hello World! Spring boot is so simple.";
